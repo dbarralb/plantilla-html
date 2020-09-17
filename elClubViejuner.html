@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Club Viejuner</title>
+</head>
+<body>
+    <form action="https://w3schools.com/action_page.php" method="GET">
+        <div tabindex="1"><h2>Sobre tí:</h2></div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre" autofocus>
+                <br>
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Introduce tus apellidos">
+                <br>
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad" placeholder="Introduce tu edad">
+                <br>
+            <label for="checkbox">Sexo:</label>
+            <input type="radio" name="gender" id="r_man">
+            <label for="r_woman">Mujer</label>
+            <input type="radio" name="gender" id="r_woman">
+            <label for="r_woman">Hombre</label>
+            <br>
+            <br>
+            <label for="viejuner">Me siento viejuner:</label>
+            <input type="checkbox" name="viejuner" id="viejuner">
+            <br>
+            <br>
+            <label for="comments"><strong>Escribe algo sobre tí:</strong> (máximo 300 caracteres)</label>
+            <br>
+            <textarea name="comments" id="comments" cols="40" rows="10" maxlength="300"></textarea>
+        <div tabindex="2"><h2>Tus circunstancias:</h2></div>
+            <label for="email">Introduce tu correo electrónico:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="phone">Enter your phone number:</label>
+            <br>
+            <!-- preguntar por el validador pattern -->
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" maxlength="9">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
