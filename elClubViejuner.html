@@ -7,8 +7,9 @@
 </head>
 <body>
     <form action="https://w3schools.com/action_page.php" method="GET">
-        <div tabindex="1"><h1>El club Viejuner</h1></div>
-            <h2>Tú:</h2>
+        <h1>El club Viejuner</h1>
+        <fieldset tabindex="1">
+            <legend>Tú:</legend>
             <label for="nombre">Nombre: </label>
             <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre" autofocus>
                 <br>
@@ -32,7 +33,9 @@
             <label for="comments"><strong>Escribe algo sobre tí:</strong> (máximo 300 caracteres)</label>
             <br>
             <textarea name="comments" id="comments" cols="40" rows="10" maxlength="300" placeholder="Cuéntanos más sobre tí"></textarea>
-        <div tabindex="2"><h2>Tus circunstancias:</h2></div>
+        </fieldset>
+        <fieldset tabindex="2">
+            <legend>Tus circunstancias:</legend>
             <label for="email">Introduce tu correo electrónico:</label>
             <br>
             <input type="email" id="email" name="email">
@@ -44,6 +47,7 @@
             <br>
             <br>
             <input type="submit" value="Enviar">
+        </fieldset>
 
     </form>
 </body>

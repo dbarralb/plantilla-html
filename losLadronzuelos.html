@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Manga Bicis</title>
+</head>
+<body>
+    <form action="https://w3schools.com/action_page.php" method="GET">
+        <div tabindex="1"><h1>Los Ladronzuelos de Bicicletas</h1></div>
+        <blockquote>"Te lo reclamamos bien reclamao"</blockquote>
+            <fieldset>
+                <legend>Fecha y hora del incidente:</legend>
+                <input type="date" name="date" id="date" autofocus required>
+                <label for="time"></label>
+                <input type="time" name="time" id="time" required>
+            </fieldset>
+            <fieldset>
+            <legend>Datos de la bicicleta:</legend>
+                <label for="bikeColor">Color:</label>
+                <input type="color" name="bikeColor" id="bikeColor">
+                    <br>
+                    <br>
+                        <label for="value">Rango de precio:</label>
+                    <br>
+                        <input type="range" name="value" id="value"min="0" max="2000">
+                    <br>
+                    <br>
+                        <label for="bikes">Tipo:</label>
+                    <br>
+                        <select name="select" id="select">
+                            <!--Los valores de los tipos los numero puesto que son valores complejos y con símbolos-->
+                                <option value="0">--- Selecciona uno ---</option>
+                            <optgroup label="Paseo">
+                                <option value="1">Señorial</option>
+                                <option value="2">Anti-plebeyos</option>
+                                <option value="3">PorEncimaDelHombro</option>
+                            </optgroup>
+                            <optgroup label="Montaña">
+                                <option value="4">Gamusinos</option>
+                                <option value="5">Hueleflores premium</option>
+                                <option value="6">Fango lover</option>
+                            </optgroup>
+                            <optgroup label="Carreras">
+                                <option value="7">Metroymedio</option>
+                                <option value="8">3 de la tarde. Fluorescente edition</option>
+                                <option value="9">Grupitors</option>
+                            </optgroup>
+                        </select>
+                    <br>
+                <br>
+            <label for="accesories">Accesorios:</label>
+                <br>
+                    <label for="ruedines">Ruedines</label>
+                    <input type="checkbox" name="ruedines" id="ruedines">
+                    <label for="pegatinas">Pegatinas</label>
+                    <input type="checkbox" name="pegatinas" id="pegatinas">
+                    <label for="cestita">Cestita</label>
+                    <input type="checkbox" name="cestita" id="cestita">
+                    <label for="bomba_aire">Bomba de aire</label>
+                    <input type="checkbox" name="bomba_aire" id="bomba_aire">
+                    <label for="timbre">Timbre</label>
+                    <input type="checkbox" name="timbre" id="timbre">
+                    <label for="foco">Foco</label>
+                    <input type="checkbox" name="foco" id="foco">
+                <br>
+            <br>
+            <label for="marca">Marca:</label>
+            <input list="marca">
+                <datalist id="marca">
+                    <!--Los valores de las marcas los dejo tal cual puesto que son palabras simples-->
+                    <option value="specialized">specialized</option>
+                    <option value="trek">trek</option>
+                    <option value="merida">merida</option>
+                    <option value="scott">scott</option>
+                    <option value="giant">giant</option>
+                    <option value="cube">cube</option>
+                    <option value="lapierre">lapierre</option>
+                    <option value="orbea">orbea</option>
+                    <option value="cannondale">cannondale</option>
+                    <option value="bmc">bmc</option>
+                    <option value="canyon">canyon</option>
+                    <option value="megamo">megamo</option>
+                    <option value="pinarello">pinarello</option>
+                    <option value="bianchi">bianchi</option>
+                    <option value="bh">bh</option>
+                    <option value="factor">factor</option>
+                    <option value="ghost">ghost</option>
+                    <option value="cervélo">cervélo</option>
+                    <option value="argon">argon</option>
+                </datalist>
+            </fieldset>
+            <br>
+        <br>
+        <input type="submit" value="Enviar denuncia">
+    </form>
+                
+</body>
+</html>
