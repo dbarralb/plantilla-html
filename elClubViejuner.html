@@ -7,7 +7,8 @@
 </head>
 <body>
     <form action="https://w3schools.com/action_page.php" method="GET">
-        <div tabindex="1"><h2>Sobre tí:</h2></div>
+        <div tabindex="1"><h1>El club Viejuner</h1></div>
+            <h2>Tú:</h2>
             <label for="nombre">Nombre: </label>
             <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre" autofocus>
                 <br>
@@ -30,7 +31,7 @@
             <br>
             <label for="comments"><strong>Escribe algo sobre tí:</strong> (máximo 300 caracteres)</label>
             <br>
-            <textarea name="comments" id="comments" cols="40" rows="10" maxlength="300"></textarea>
+            <textarea name="comments" id="comments" cols="40" rows="10" maxlength="300" placeholder="Cuéntanos más sobre tí"></textarea>
         <div tabindex="2"><h2>Tus circunstancias:</h2></div>
             <label for="email">Introduce tu correo electrónico:</label>
             <br>
@@ -39,7 +40,7 @@
             <label for="phone">Enter your phone number:</label>
             <br>
             <!-- preguntar por el validador pattern -->
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" maxlength="9">
+            <input type="tel" id="phone" name="phone" pattern="[6]{1}[0-9]{8}" maxlength="9">
             <br>
             <br>
             <input type="submit" value="Enviar">
