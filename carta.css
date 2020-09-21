@@ -1,0 +1,48 @@
+
+#address_lines {
+    text-align: left;
+    margin-right: 40%;
+    background-color: #67BDE0;
+    padding: 2%;
+}
+
+#personInfo {
+    margin-left: 60%;
+    background-color: #49A0DE;
+    padding: 4%;
+    text-align: right;
+}
+
+body {
+    margin: 10%;
+}
+
+.letter_content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 4%;
+    padding-top: 2%;
+    background-color: #49A0DE;
+}
+
+#re {
+    color: #424BEB;
+    padding: 2%;
+    background-color: white;
+    box-sizing: content-box;
+}
+
+.tips {
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 5px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    background-color: #67BDE0;
+
+}
+
+.bottom {
+    text-align: center;
+}
