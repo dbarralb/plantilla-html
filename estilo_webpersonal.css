@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: cadetblue;
+    bottom: 0px;
+}
+
+.carroussel {
+    width: 100%;
+    height: 400px;
+    background-color: darkcyan;
+
+}
+
+.name {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+
+.body {
+    background-color: cadetblue;
+    width: 75%;
+    height: 300px;
+    align-items: center;
+
+}

@@ -1,4 +1,6 @@
-
+* {
+    margin: 0px;
+}
 #address_lines {
     text-align: left;
     margin-right: 40%;
