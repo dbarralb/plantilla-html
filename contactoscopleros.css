@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#43A447 ;
+    
+    
+}
+
+.flex_container{
+    width: 400px;
+    height: 650px;
+    margin-top: 10%;
+    margin-left: 50%;
+    background-color: white;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
+
+.contact{
+    width: 100%;
+    height: 130px;
+    border-style: outset;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.contact_info{
+    color: teal;
+    justify-content: right;
+    transform: translateY(25%);
+}
+.contact_image{
+    max-width: 30%;
+}
+.contact_image img{
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+    border-bottom-style: outset;
+    border-style: groove;
+}
+
+.contact_info p:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    color: #008436;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact_info p:nth-child(2){
+    font-style: italic;
+    color: grey;
+}
